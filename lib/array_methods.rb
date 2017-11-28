@@ -2,11 +2,7 @@ def using_include(array, element)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
   element1 = "wow"
   element2 = "Tardis"
-  if array.include?(element1)
-    true
-  else array.include?(element2)
-    false
-  end
+  array.include?(element1) || array.include?(element2)
 end
 
 def using_sort(array)
