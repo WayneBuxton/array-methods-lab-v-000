@@ -3,7 +3,9 @@ def using_include(array, element)
   element1 = "wow"
   element2 = "Tardis"
   if array.include?(element1)
+    true
   else array.include?(element2)
+    false
   end
 end
 
